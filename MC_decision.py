@@ -67,6 +67,7 @@ def decide(penalty):
 
 print decide(9)
 
+# uncoment this if you want to run in MATLAB with MC_decision.m script.
 """if __name__ == '__main__':
     x = int(sys.argv[1])
     sys.stdout.write(str(decide(x)))
